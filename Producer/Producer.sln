@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{0AA15488-2E9E-4905-B047-BAA38CD07C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{FC6FD949-DB6E-4339-B7EB-BE06098C9593}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{116A01D0-1916-4CA7-95DD-9B49696E0F54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A6B301-992F-4FB6-896E-A55FF044298E}
+	EndGlobalSection
+EndGlobal
