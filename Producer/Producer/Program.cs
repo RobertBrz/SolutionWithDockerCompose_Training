@@ -13,14 +13,14 @@ internal class Program
             {
                 try
                 {
-                    tcpClient.Connect("Consumer", 82);
+                    tcpClient.Connect("api", 82);
                 }
                 catch (SocketException e) { 
                 Console.WriteLine(e.ToString());    
                 }
             }
 
-            Task.Delay(2000).Wait();
+            Task.Delay(5000).Wait();
         }
     }
 
@@ -31,5 +31,6 @@ internal class Program
         Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
         NetworkStream stream = tcpClient.GetStream();
         stream.Write(data, 0, data.Length);
+        Console.WriteLine($"{message} sent");
     }
 }

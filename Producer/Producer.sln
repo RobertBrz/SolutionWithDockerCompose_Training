@@ -5,9 +5,9 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{0AA15488-2E9E-4905-B047-BAA38CD07C6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{FC6FD949-DB6E-4339-B7EB-BE06098C9593}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{B3CF4EEA-1876-4B82-8291-66029FFA2706}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{116A01D0-1916-4CA7-95DD-9B49696E0F54}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AFA50006-C43A-41B5-B468-5C4E6F4C7AAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA15488-2E9E-4905-B047-BAA38CD07C6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC6FD949-DB6E-4339-B7EB-BE06098C9593}.Release|Any CPU.Build.0 = Release|Any CPU
-		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{116A01D0-1916-4CA7-95DD-9B49696E0F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CF4EEA-1876-4B82-8291-66029FFA2706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CF4EEA-1876-4B82-8291-66029FFA2706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CF4EEA-1876-4B82-8291-66029FFA2706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CF4EEA-1876-4B82-8291-66029FFA2706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA50006-C43A-41B5-B468-5C4E6F4C7AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA50006-C43A-41B5-B468-5C4E6F4C7AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA50006-C43A-41B5-B468-5C4E6F4C7AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA50006-C43A-41B5-B468-5C4E6F4C7AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

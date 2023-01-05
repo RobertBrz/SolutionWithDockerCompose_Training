@@ -1,16 +1,33 @@
 version: '3.4'
 
 services:
-  consumer:
-    image: ${DOCKER_REGISTRY-}consumer
+  api:
+    image: ${DOCKER_REGISTRY-}api
     build:
       context: .
-      dockerfile: Consumer/Dockerfile
+      dockerfile: API/Dockerfile
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_USER: root
+      POSTGRES_DB: postgres
+    ports:
+    - 5432:5432 
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
 
   producer:
     image: ${DOCKER_REGISTRY-}producer
     build:
       context: .
       dockerfile: Producer/Dockerfile
-    depends_on:  
-    - consumer
+    depends_on:
+    - api
+
